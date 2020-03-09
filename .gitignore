@@ -1,3 +1,5 @@
+.ipynb_checkpoints
+
 # Numerous always-ignore extensions
 *.diff
 *.err

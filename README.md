@@ -10,8 +10,8 @@
 
 Il 31 gennaio 2020, il Consiglio dei Ministri dichiara lo stato di emergenza, per la durata di sei mesi, in conseguenza del rischio sanitario connesso all'infezione da Coronavirus.
 
-Al Capo del Dipartimento della Protezione Civile, Angelo Borrelli, è affidato il coordinamento degli interventi necessari a fronteggiare l'emergenza sul territorio nazionale.  
-  
+Al Capo del Dipartimento della Protezione Civile, Angelo Borrelli, è affidato il coordinamento degli interventi necessari a fronteggiare l'emergenza sul territorio nazionale.
+
 Le principali azioni coordinate dal Capo del Dipartimento sono volte al soccorso e all'assistenza della popolazione eventualmente interessata dal contagio, al potenziamento dei controlli nelle aree aeroportuali e portuali, in continuità con le misure urgenti già adottate dal Ministero della salute, al rientro in Italia dei cittadini che si trovano nei Paesi a rischio e al rimpatrio dei cittadini stranieri nei Paesi di origine esposti al rischio.
 
 Per informare i cittadini e mettere a disposizione i dati raccolti, utili ai soli fini comunicativi e di informazione, il Dipartimento della Protezione Civile ha elaborato un cruscotto geografico interattivo raggiungibile agli indirizzi  [http://arcg.is/C1unv](http://arcg.is/C1unv) (versione desktop) e [http://arcg.is/081a51](http://arcg.is/081a51) (versione mobile) e mette a disposizione, con licenza CC-BY-4.0, le seguenti informazioni aggiornate quotidianamente alle 18:30 (successivamente la conferenza stampa del Capo Dipartimento):
@@ -45,6 +45,7 @@ COVID-19/
 │   │   ├── dpc-covid19-ita-scheda-province-yyyymmdd.pdf
 │   ├── regioni
 │   │   ├── dpc-covid19-ita-scheda-regioni-yyyymmdd.pdf
+├── notebooks
 ```
 
 
@@ -78,9 +79,9 @@ COVID-19/
 | **tamponi**                     | Totale tamponi                    | Tests performed                        | Numero                        | 3                   |
 
 
-*Le Province autonome di Trento e Bolzano sono indicate in "denominazione regione" e con il codice 04 del Trentino Alto Adige.* 
+*Le Province autonome di Trento e Bolzano sono indicate in "denominazione regione" e con il codice 04 del Trentino Alto Adige.*
 
-*Viene messo a disposizione un file JSON complessivo di tutte le date nella cartella "dati-json": dpc-covid19-ita-regioni.json* 
+*Viene messo a disposizione un file JSON complessivo di tutte le date nella cartella "dati-json": dpc-covid19-ita-regioni.json*
 
 ### Dati per Provincia
 
@@ -103,7 +104,7 @@ COVID-19/
 | **long**                    | Longitudine                         | Longitude                       | WGS84              | 13.70439971          |
 | **totale_casi**             | Totale casi positivi                | Total amount of positive cases  | Numero             | 3                    |
 
-*Le Province autonome di Trento e Bolzano sono indicate in "denominazione regione" e con il codice 04 del Trentino Alto Adige.* 
+*Le Province autonome di Trento e Bolzano sono indicate in "denominazione regione" e con il codice 04 del Trentino Alto Adige.*
 
 *Ogni Regione ha una Provincia denominata "In fase di definizione/aggiornamento" con il codice provincia da 979 a 999, utile ad indicare i dati ancora non assegnati alle Province.*
 
@@ -150,3 +151,12 @@ COVID-19/
 *Dati forniti dal Ministero della Salute*
 
 *Elaborazione e gestione dati a cura del Dipartimento della Protezione Civile*
+
+
+# Notebook
+Installare poetry e poi eseguire `jupyter.sh`
+
+    pip install poetry
+    bash jupyter.sh
+
+Selezionare il kernel covid19 da jupyter
